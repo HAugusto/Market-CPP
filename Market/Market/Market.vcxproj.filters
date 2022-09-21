@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Company">
+      <UniqueIdentifier>{1df5db21-4af1-4b02-883d-0d43568b1eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Company">
+      <UniqueIdentifier>{9103311b-9fa4-4217-8053-9cc5cee85811}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headder\GenericFunctions.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Headder\CompanyInfo.h">
+      <Filter>Arquivos de Cabeçalho\Company</Filter>
+    </ClInclude>
+    <ClInclude Include="Headder\Personal.h">
+      <Filter>Arquivos de Cabeçalho\Company</Filter>
+    </ClInclude>
+    <ClInclude Include="Headder\Account.h">
+      <Filter>Arquivos de Cabeçalho\Company</Filter>
+    </ClInclude>
+    <ClInclude Include="Stock.h">
+      <Filter>Arquivos de Cabeçalho\Company</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cpp\Source.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp\Account.cpp">
+      <Filter>Arquivos de Origem\Company</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp\CompanyInfo.cpp">
+      <Filter>Arquivos de Origem\Company</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

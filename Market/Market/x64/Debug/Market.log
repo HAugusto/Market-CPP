@@ -1,0 +1,10 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: O diretório intermediário (x64\Debug\) contém arquivos compartilhados de outro projeto (Market.vcxproj). Isso pode levar a um comportamento incorreto de limpeza e recompilação.
+  Account.cpp
+C:\Users\higor\OneDrive - Fundacao Santo Andre\Documentos\Projetos\Projetos de Programação\Market\Market\Headder\Account.h(29,14): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
+  CompanyInfo.cpp
+  Source.cpp
+C:\Users\higor\OneDrive - Fundacao Santo Andre\Documentos\Projetos\Projetos de Programação\Market\Market\Cpp\Source.cpp(24,21): error C2015: muitos caracteres na constante
+C:\Users\higor\OneDrive - Fundacao Santo Andre\Documentos\Projetos\Projetos de Programação\Market\Market\Cpp\Source.cpp(24,28): error C2664: 'int GenericFunctions::getVectorLength(int *)': não é possível converter um argumento 1 de 'int' em 'int *'
+C:\Users\higor\OneDrive - Fundacao Santo Andre\Documentos\Projetos\Projetos de Programação\Market\Market\Cpp\Source.cpp(24,21): message : Conversão de tipo integral para tipo de ponteiro requer reinterpret_cast, conversão C-style ou conversão function-style entre parênteses
+C:\Users\higor\OneDrive - Fundacao Santo Andre\Documentos\Projetos\Projetos de Programação\Market\Market\Headder\GenericFunctions.h(20,6): message : consulte a declaração de 'GenericFunctions::getVectorLength'
+  Gerando Código...
